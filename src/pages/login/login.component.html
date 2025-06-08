@@ -1,1 +1,40 @@
-<p>login works!</p>
+<div class="wrapper">
+  <div class="container">
+    <div class="row justify-content-center align-items-center min-vh-100">
+      <div class="col-md-6 col-lg-4">
+        <div class="card shadow-lg p-4">
+          <h3 class="mb-4 text-center">Parking Login</h3>
+          <form>
+            <div class="mb-3">
+              <label for="username" class="form-label">Username</label>
+              <input type="text" id="username" class="form-control" placeholder="Enter username" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="password" class="form-label">Password</label>
+              <input type="password" id="password" class="form-control" placeholder="Enter password" required>
+            </div>
+
+            <div class="mb-3">
+              <label for="loginAs" class="form-label">Login As</label>
+              <select id="loginAs" name="role" class="form-select">
+                <option value="Entry">Entry Get Operator</option>
+                <option value="Exit">Exit Get Operator</option>
+                <option value="Administrator">Administrator</option>
+              </select>
+            </div>
+
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="rememberMe">
+              <label class="form-check-label" for="rememberMe">Remember me</label>
+            </div>
+
+            <div class="d-grid">
+              <button type="submit" class="btn btn-primary">Login</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
